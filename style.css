@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #A7E1E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width: 470px;
+    background: white;
+    border-radius: 5px;
+    padding: 25px 25px 30px;
+}
+.wrapper textarea{
+    width: 100%;
+    height: 59px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.buttons #btnClear{
+    background-color: #324B4C;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.botones button {
+    background-color: #324B4C;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    flex-basis: 48%;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.botones #btnStartRecord {
+    margin-right: 15px;
+}
